@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   /* Establece la fuente de Google aquí */
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
@@ -24,17 +24,16 @@ body {
   background-color: #fff;
 }
 
-img {
+img{
   vertical-align: middle;
-
 }
 
-a {
+a{
   color: #373B47;
   text-decoration: none;
 }
 
-a:hover {
+a:hover{
   color: #E95853;
 }
 
@@ -104,7 +103,7 @@ header{
   margin-top: 63px;
 }
 
-.text-services{
+.text-services, .text-work{
   font-size: 35px;
   letter-spacing: 2px;
 }
@@ -115,4 +114,13 @@ footer{
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+}
+
+#work{
+  background-color: white;
+  text-align: center;
+  padding: 70px 7px;
+}
+.nombre-p{
+  font-style: bolder;
 }
